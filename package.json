@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "16.2.0",
     "react-dom": "16.2.0",
-    "react-scripts": "1.1.1"
+    "react-scripts": "^2.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,10 +43,16 @@
     "chai": "4.1.2",
     "chai-enzyme": "0.8.0",
     "cross-env": "5.1.4",
-    "enzyme": "3.3.0",
-    "enzyme-adapter-react-16": "1.1.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.10.0",
     "esprima": "4.0.0",
     "react-test-renderer": "16.3.1",
     "sinon": "5.0.1"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
