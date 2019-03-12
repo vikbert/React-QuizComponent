@@ -6,3 +6,6 @@ body {
 .QuizContent {
   padding-left: 40px;
 }
+ul {
+  list-style: none;
+}

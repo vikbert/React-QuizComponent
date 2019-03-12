@@ -3,9 +3,9 @@ import React, { Component } from "react";
 class QuizEnd extends Component {
   render() {
     return (
-      <div>
+      <div className='quiz-end'>
         <p>Thanks for playing!</p>
-        <a href="">Reset Quiz</a>
+        <a href="http://localhost:3000/">Reset Quiz</a>
       </div>
     );
   }
